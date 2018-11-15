@@ -3,7 +3,7 @@
     open Microsoft.Quantum.Primitive;
     open Microsoft.Quantum.Canon;
     
-    operation HelloQ () : Unit {
+    operation Set (desired: Result, q1: Qubit) : Unit {
         Message("Hello quantum world!");
     }
 }
