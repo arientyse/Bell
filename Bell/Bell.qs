@@ -1,4 +1,4 @@
-﻿//written by Ari Tyson in Q#
+﻿//written by arientyse in Q#
 //November 14, 2018
 namespace Quantum.Bell
 {

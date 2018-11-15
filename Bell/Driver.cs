@@ -1,4 +1,5 @@
-﻿using System;
+﻿//written by arientyse in C#
+using System;
 
 using Microsoft.Quantum.Simulation.Core;
 using Microsoft.Quantum.Simulation.Simulators;
