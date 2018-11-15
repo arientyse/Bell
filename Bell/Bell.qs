@@ -4,6 +4,11 @@
     open Microsoft.Quantum.Canon;
     
     operation Set (desired: Result, q1: Qubit) : Unit {
-        Message("Hello quantum world!");
+        let current = M(q1);
+
+		if (desired != current)
+		{
+			X(q1);
+		}
     }
 }
